@@ -33,25 +33,33 @@
             android:layout_height="wrap_content"
             android:id="@+id/btn_add"
             android:layout_margin="4dp"
-            android:text="+"/>
+            android:text="+"
+            android:backgroundTint="@color/pink"
+            android:textColor="@color/white"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/btn_sub"
             android:layout_margin="4dp"
-            android:text="-"/>
+            android:text="-"
+            android:backgroundTint="@color/pink"
+            android:textColor="@color/white"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/btn_mul"
             android:layout_margin="4dp"
-            android:text="*"/>
+            android:text="*"
+            android:backgroundTint="@color/pink"
+            android:textColor="@color/white"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/btn_div"
             android:layout_margin="4dp"
-            android:text="/"/>
+            android:text="/"
+            android:backgroundTint="@color/pink"
+            android:textColor="@color/white"/>
 
     </LinearLayout>
 

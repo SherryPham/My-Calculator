@@ -53,9 +53,15 @@
             android:layout_margin="4dp"
             android:text="/"/>
 
-
     </LinearLayout>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="result "
+        android:textSize="24sp"
+        android:gravity="center"
+        android:layout_margin="20dp" />
 
 
   </LinearLayout>

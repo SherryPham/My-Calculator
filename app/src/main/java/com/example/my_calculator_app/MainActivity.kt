@@ -28,4 +28,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         btnMul = findViewById(R.id.btn_mul)
         btnDiv = findViewById(R.id.btn_div)
     }
+
+    override fun onClick(v: View?) {
+        when(v?.id){
+
+        }
+    }
 }

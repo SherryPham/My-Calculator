@@ -1,6 +1,8 @@
 package com.example.my_calculator_app
 
 import android.os.Bundle
+import android.widget.Button
+import android.widget.EditText
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -12,6 +14,8 @@ class MainActivity : AppCompatActivity() {
     lateinit var btnSub : Button
     lateinit var btnMul : Button
     lateinit var btnDiv : Button
+    lateinit var a : EditText
+    lateinit var b : EditText
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

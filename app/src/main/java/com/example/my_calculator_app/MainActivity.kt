@@ -17,6 +17,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         btnAdd = findViewById(R.id.btn_add)
-
+        btnSub = findViewById(R.id.btn_sub)
+        btnMul = findViewById(R.id.btn_mul)
+        btnDiv = findViewById(R.id.btn_div)
     }
 }

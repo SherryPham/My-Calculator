@@ -9,11 +9,14 @@ import androidx.core.view.WindowInsetsCompat
 class MainActivity : AppCompatActivity() {
 
     lateinit var btnAdd : Button
+    lateinit var btnSub : Button
+    lateinit var btnMul : Button
+    lateinit var btnDiv : Button
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-
+        btnAdd = findViewById(R.id.btn_add)
 
     }
 }

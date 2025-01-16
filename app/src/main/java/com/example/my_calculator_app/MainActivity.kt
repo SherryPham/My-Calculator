@@ -30,6 +30,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     }
 
     override fun onClick(v: View?) {
+        var num_a = a.text.toString().toDouble()
+        var num_b = a.text.toString().toDouble()
         when(v?.id){
             R.id.btn_add ->{}
             R.id.btn_sub ->{}

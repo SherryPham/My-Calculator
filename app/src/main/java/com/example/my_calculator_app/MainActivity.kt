@@ -32,11 +32,20 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     override fun onClick(v: View?) {
         var num_a = a.text.toString().toDouble()
         var num_b = a.text.toString().toDouble()
+        var result = 0.0
         when(v?.id){
-            R.id.btn_add ->{}
-            R.id.btn_sub ->{}
-            R.id.btn_mul ->{}
-            R.id.btn_div ->{}
+            R.id.btn_add ->{
+                result = num_a + num_b
+            }
+            R.id.btn_sub ->{
+                result = num_a - num_b
+            }
+            R.id.btn_mul ->{
+                result = num_a * num_b
+            }
+            R.id.btn_div ->{
+                result = num_a / num_b
+            }
         }
     }
 }

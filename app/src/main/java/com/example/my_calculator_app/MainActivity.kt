@@ -31,7 +31,10 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
     override fun onClick(v: View?) {
         when(v?.id){
-
+            R.id.btn_add ->{}
+            R.id.btn_sub ->{}
+            R.id.btn_mul ->{}
+            R.id.btn_div ->{}
         }
     }
 }

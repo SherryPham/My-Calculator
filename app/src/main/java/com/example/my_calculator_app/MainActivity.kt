@@ -30,6 +30,11 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         A = findViewById(R.id.a)
         B = findViewById(R.id.b)
         result = findViewById(R.id.result_textview)
+
+        btnAdd.setOnClickListener(this)
+        btnSub.setOnClickListener(this)
+        btnMul.setOnClickListener(this)
+        btnDiv.setOnClickListener(this)
     }
 
     override fun onClick(v: View?) {

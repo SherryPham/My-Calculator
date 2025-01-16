@@ -16,8 +16,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     lateinit var btnSub : Button
     lateinit var btnMul : Button
     lateinit var btnDiv : Button
-    lateinit var a : EditText
-    lateinit var b : EditText
+    lateinit var A : EditText
+    lateinit var B : EditText
     lateinit var  result : TextView
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -27,25 +27,29 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         btnSub = findViewById(R.id.btn_sub)
         btnMul = findViewById(R.id.btn_mul)
         btnDiv = findViewById(R.id.btn_div)
+        A = findViewById(R.id.a)
+        B = findViewById(R.id.b)
+        result = findViewById(R.id.result_textview)
     }
 
     override fun onClick(v: View?) {
-        var num_a = a.text.toString().toDouble()
-        var num_b = a.text.toString().toDouble()
-        var result = 0.0
+        var num_a = A.text.toString().toDouble()
+        var num_b = B.text.toString().toDouble()
+        var final_result = 0.0
         when(v?.id){
             R.id.btn_add ->{
-                result = num_a + num_b
+                final_result = num_a + num_b
             }
             R.id.btn_sub ->{
-                result = num_a - num_b
+                final_result = num_a - num_b
             }
             R.id.btn_mul ->{
-                result = num_a * num_b
+                final_result = num_a * num_b
             }
             R.id.btn_div ->{
-                result = num_a / num_b
+                final_result = num_a / num_b
             }
         }
+        result.text = "Result is $final_result"
     }
 }
